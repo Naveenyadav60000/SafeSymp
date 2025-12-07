@@ -10,7 +10,7 @@ SafeSymp: A RAG-Based Symptom &amp; Self-Care Guidance Assistant
 - **Naveen Reddy Velumala**
 
 
-## 📌 Project Overview
+##  Project Overview
 
 **SafeSymp** is an NLP-based Retrieval-Augmented Generation (RAG) system designed to provide **safe, educational, and trustworthy symptom information** and **self-care guidance** to consumers.
 The system does not provide diagnosis or medical advice. Instead, it uses authoritative biomedical sources to improve information quality and reduce hallucination.
@@ -18,7 +18,7 @@ The system does not provide diagnosis or medical advice. Instead, it uses author
 The project demonstrates how modern retrieval-enhanced LLM architectures can support consumer health information access responsibly.
 
 
-## 📂 Dataset & Domain
+##  Dataset & Domain
 ### Domain
 
 Consumer Health Information
@@ -32,7 +32,7 @@ Consumer Health Information
 - **openFDA Drug Label API** — structured medication information.
 
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 1.Build a **Retrieval-Augmented Generation system** for safe symptom education.
 
@@ -46,7 +46,7 @@ Consumer Health Information
 
 
 
-## 💡 Statement of Value
+##  Statement of Value
 
 - Many people search symptoms online and receive misleading or unsafe advice.
 SafeSymp solves this by:
@@ -84,7 +84,7 @@ This assists users in **understanding symptoms**, not interpreting them medicall
 
 SafeSymp applies these principles by strictly limiting outputs to “symptom education + safe self-care guidance.”
 
-## 🧱 System Architecture
+##  System Architecture
 ### 1. Data Pipeline
 
 - Parse MedlinePlus XML
@@ -115,7 +115,7 @@ SafeSymp applies these principles by strictly limiting outputs to “symptom edu
 
 - Logging and evaluation support
 
-### 📦 Deliverables
+###  Deliverables
 
 - Cleaned corpus
 
@@ -129,7 +129,7 @@ SafeSymp applies these principles by strictly limiting outputs to “symptom edu
 
 - Final report and presentation
 
-## 🧪 Evaluation Methodology
+##  Evaluation Methodology
 ### 1. Quantitative Evaluation
 
 - **Accuracy of factual grounding**
@@ -162,7 +162,7 @@ SafeSymp applies these principles by strictly limiting outputs to “symptom edu
 
 Correctness
 
- ## 📊 Model Comparison (Summary)
+ ##  Model Comparison (Summary)
 | Model            | Description                 | Strengths                      | Weaknesses                     |
 | ---------------- | --------------------------- | ------------------------------ | ------------------------------ |
 | **Baseline LLM** | LLM without retrieval       | Fluent responses               | Higher hallucination risk      |
@@ -171,7 +171,7 @@ Correctness
 
 RAG significantly improves **factuality, safety,** and **trustworthiness**.
 
-## 📈 Results (Sample Summary)
+##  Results (Sample Summary)
 
 - RAG responses showed **reduced hallucinations (~60% improvement)**.
 
@@ -181,7 +181,7 @@ RAG significantly improves **factuality, safety,** and **trustworthiness**.
 
 - Qualitative reviewers preferred RAG answers for being **safer** and **more structured.**
 
-## 📝 Usage Instructions
+##  Usage Instructions
 
 **1.** Install dependencies
 
@@ -199,22 +199,12 @@ RAG significantly improves **factuality, safety,** and **trustworthiness**.
 
 **5.** System returns grounded educational information
 
-## ⚠️ Safety Disclaimer
+##  Safety Disclaimer
 
 SafeSymp is a **non-diagnostic educational tool**.
 It does **not** provide medical advice, diagnosis, or treatment recommendations.
 Always consult a qualified healthcare provider for medical concerns.
 
-## 📁 Repository Structure (Sample)
-📦 SafeSymp
- ┣ 📂 data
- ┃ ┗ symptom_precaution.csv
- ┣ 📂 notebooks
- ┃ ┗ NLP_Project.ipynb
- ┣ 📂 slides
- ┃ ┗ NLP_Project_.pptx
- ┣ README.md
- ┗ requirements.txt
 
 ## 🙏 Acknowledgements
 
