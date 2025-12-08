@@ -206,12 +206,16 @@ It does **not** provide medical advice, diagnosis, or treatment recommendations.
 Always consult a qualified healthcare provider for medical concerns.
 
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 This project uses public data from:
 
 - MedlinePlus (NIH / National Library of Medicine)
 
 - openFDA Drug Label API (optional)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Guidance from DSCI 6004 – NLP course instructors
+Guidance from DSCI 6004 – NLP course instructor
+**Khaled Sayed**
+Assistant Professor at University of New Haven
+
